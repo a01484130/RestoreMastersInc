@@ -1,0 +1,53 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+        <meta charset="UTF-8">
+	<title>Restore Masters</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        	<div id="header">
+		<div class="wrapper clearfix">
+			<div id="logo">
+				<a href="default.aspx"><img src="images/logo.png" alt="LOGO"></a>
+			</div>
+			<ul id="navigation">
+				<li>
+					<a href="default.aspx">Home</a>
+				</li>
+				<li>
+					<a href="services.aspx">Services</a>
+				</li>
+				<li>
+					<a href="equipment.aspx">Equipment</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div id="contents">
+        <center>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </center>
+	</div>
+	<div id="footer">
+		<div class="body">
+			<div class="wrapper clearfix">
+				<p class="footnote">
+					Restore Masters Inc. name all rights reserved
+				</p>
+			</div>
+		</div>
+	</div>
+    </div>
+    </form>
+</body>
+</html>

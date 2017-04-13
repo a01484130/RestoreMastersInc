@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="Microsofties-Web.config Connection String" description="Microsofties Connection String used in web.config by the application to access the database." defaultValue="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=&quot;C:\Users\alexc\OneDrive\Spring 2017\MIS 5900\Project\DB\Microsofties.mdf&quot;;Integrated Security=True;Connect Timeout=30" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\alexc\\OneDrive\\Spring\ 2017\\MIS\ 5900\\Project\\Microsofties1\\Microsofties1\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='Microsofties']/@connectionString" />
+  </parameter>
+  <parameter name="MicrosoftiesConnectionString-Web.config Connection String" description="MicrosoftiesConnectionString Connection String used in web.config by the application to access the database." defaultValue="Data Source=alexsb;Initial Catalog=Microsofties;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\alexc\\OneDrive\\Spring\ 2017\\MIS\ 5900\\Project\\Microsofties1\\Microsofties1\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='MicrosoftiesConnectionString']/@connectionString" />
+  </parameter>
+</parameters>
